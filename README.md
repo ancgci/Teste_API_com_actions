@@ -5,6 +5,10 @@
 O [Teste de API com Github Actions](https://github.com/ancgci/Teste_API_com_actions) fora desenvolvido
  com cunho educacional com base no modelo do [Tutor Carlos Eduardo](https://github.com/ancgci/Teste_API_com_actions). Na pratica do curso de [Analista de Testes de Software](https://ultima.school/courses/).
 
+## Endereço Utilizado Utilizado
+
+- http://jsonplaceholder.typicode.com/users
+
 ## Ferramentas/Sistemas/Formatos utilizados:
 
 - VS CODE
