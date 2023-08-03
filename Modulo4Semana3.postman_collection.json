@@ -9,9 +9,35 @@
 	"item": [
 		{
 			"name": "/?name=Ervin Howell",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test 1\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"    pm.response.to.be.ok;\r",
+							" });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "javascript"
+						}
+					}
+				},
 				"url": {
 					"raw": "http://jsonplaceholder.typicode.com/users/?name=Ervin Howell",
 					"protocol": "http",
@@ -36,9 +62,35 @@
 		},
 		{
 			"name": "/2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test 2\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"    pm.response.to.be.ok;\r",
+							" });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "javascript"
+						}
+					}
+				},
 				"url": {
 					"raw": "http://jsonplaceholder.typicode.com/users/2",
 					"protocol": "http",
@@ -57,9 +109,35 @@
 		},
 		{
 			"name": "?name=Clementine Bauch",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test 3\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"    pm.response.to.be.ok;\r",
+							" });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "javascript"
+						}
+					}
+				},
 				"url": {
 					"raw": "http://jsonplaceholder.typicode.com/users/?name=Clementine Bauch",
 					"protocol": "http",
@@ -84,9 +162,35 @@
 		},
 		{
 			"name": "/7",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test 4\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"    pm.response.to.be.ok;\r",
+							" });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "pm.test(\"Status test 4\", function () {\r\n    pm.response.to.have.status(200);\r\n });",
+					"options": {
+						"raw": {
+							"language": "javascript"
+						}
+					}
+				},
 				"url": {
 					"raw": "http://jsonplaceholder.typicode.com/users/7",
 					"protocol": "http",
@@ -105,9 +209,35 @@
 		},
 		{
 			"name": "?email=Nathan@yesenia.net",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test 5\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"    pm.response.to.be.ok;\r",
+							" });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "javascript"
+						}
+					}
+				},
 				"url": {
 					"raw": "http://jsonplaceholder.typicode.com/users/?email=Nathan@yesenia.net",
 					"protocol": "http",
